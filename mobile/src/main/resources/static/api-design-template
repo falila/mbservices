@@ -1,0 +1,41 @@
+--Users this following path describes our api design principle
+
+Get : 
+/users
+/users/id
+/users?fields=manufacturer,model,id,color
+/users?offset=10&limit=5
+Post :
+/users/raph
+
+Put:
+/users/raph
+
+--Orders
+
+Read
+/orders
+/orders/id
+/orders?offset=10&limit=5
+/orders?fields=type,date,id,status
+
+Post :
+/orders/neworder
+
+Put update:
+/orders/order1
+--Customer
+
+
+200 – OK – Eyerything is working
+201 – OK – New resource has been created
+204 – OK – The resource was successfully deleted
+
+---  Data base schema  ---- 
+User ( security purpose)
+Client (location,contract-Type,)
+deliveryBoy ()
+Ordered
+Delivery
+address
+
